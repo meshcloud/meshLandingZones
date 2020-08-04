@@ -1,0 +1,23 @@
+{
+   "projectIdentifier": {
+       "type": "string",
+       "metadata": {
+           "displayName": "Project Identifier",
+           "description": null
+       }
+   },
+   "tagCostCenter": {
+       "type": "string",
+       "metadata": {
+           "displayName": "Cost Center",
+           "description": null
+       }
+   },
+   "customerIdentifier": {
+       "type": "string",
+       "metadata": {
+           "displayName": "Customer Identifier",
+           "description": null
+       }
+   }
+}
