@@ -12,3 +12,7 @@ az blueprint artifact policy create --blueprint-name <blueprint-name> --artifact
 
 az blueprint artifact policy create --blueprint-name <blueprint-name> --artifact-name "tagCostCenter" --policy-definition-id '/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71' --display-name "Apply tagCostCenter Tag and its default value to resource groups" --description "Apply tagCostCenter Tag and its default value to resource groups" --parameters tagCostCenter.json --management-group=<management-group>
 ```
+
+# Reference
+meshcloud documentation Azure Landing Zones
+https://docs.meshcloud.io/docs/meshstack.azure.landing-zones.html
