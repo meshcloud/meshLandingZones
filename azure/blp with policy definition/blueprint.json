@@ -1,0 +1,27 @@
+{
+    "properties": {
+      "description": "Resource group tagging",
+      "targetScope": "subscription",
+      "parameters": {
+        "projectIdentifier": {
+          "type": "string",
+          "metadata": {
+            "displayName": "projectIdentifier (Initiative: Append projectIdentifier tags to resource groups v1.0)"
+          }
+        },
+        "tagCostCenter": {
+          "type": "string",
+          "metadata": {
+            "displayName": "tagCostCenter (Initiative: Append tagCostCenter tags to resource groups v1.0)"
+          }
+        },
+        "customerIdentifier": {
+          "type": "string",
+          "metadata": {
+            "displayName": "customerIdentifier (Initiative: Append customerIdentifier tags to resource groups v1.0)"
+          }
+        }
+      },
+      "resourceGroups": {}
+    }
+}

@@ -1,8 +1,8 @@
 {
    "tagName": {
-      "value": "<parameter (projectIdentifier>"
+      "value": "projectIdentifier"
    },
    "tagValue": {
-      "value": "[parameters('<parameter (projectIdentifier)>')]"
+      "value": "[parameters('projectIdentifier')]"
    }
 }

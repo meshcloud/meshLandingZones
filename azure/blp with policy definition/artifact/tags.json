@@ -1,0 +1,19 @@
+{
+    "kind": "policyAssignment",
+    "properties": {
+      "displayName": "[test] Append tags to resource groups v1.0",
+      "dependsOn": [],
+      "policyDefinitionId": "/subscriptions/90a7ee63-aad6-4239-a640-b9e42f1ded58/providers/Microsoft.Authorization/policySetDefinitions/test-policy-set",
+      "parameters": {
+        "projectIdentifier": {
+          "value": "[parameters('projectIdentifier')]"
+        },
+        "tagCostCenter": {
+          "value": "[parameters('tagCostCenter')]"
+        },
+        "customerIdentifier": {
+          "value": "[parameters('customerIdentifier')]"
+        }
+      }
+    }
+  }

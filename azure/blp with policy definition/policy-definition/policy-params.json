@@ -1,0 +1,20 @@
+{
+    "projectIdentifier": {
+        "type": "String",
+        "metadata": {
+            "description": "Project Identifier"
+        }
+    },
+    "tagCostCenter": {
+        "type": "String",
+        "metadata": {
+            "description": "Cost Center"
+        }
+    },
+    "customerIdentifier": {
+        "type": "String",
+        "metadata": {
+            "description": "Customer Identifier"
+        }
+    }
+}

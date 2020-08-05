@@ -1,8 +1,8 @@
 {
    "tagName": {
-      "value": "<parameter (customerIdentifier>"
+      "value": "customerIdentifier"
    },
    "tagValue": {
-      "value": "[parameters('<parameter (customerIdentifier)>')]"
+      "value": "[parameters('customerIdentifier')]"
    }
 }
