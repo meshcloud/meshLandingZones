@@ -1,0 +1,8 @@
+# To use this template, upload sa_template.py to a bucket that can be reached by the replicator.
+# gs://<bucket_name>/<file_path_inside_bucket>
+
+resources:
+- name: sa_template
+  type: gs://gdm-templates/platform_team_service_account/sa_template.py # replace with specific path gs://<bucket_name>/<file_path_inside_bucket>
+  properties:
+    account_name: platform-team-sa
