@@ -23,6 +23,21 @@ variable billing_account_id {
   description = "The GCP Billing Account in your organization."
 }
 
+resource "google_project_service" "project-billing" {
+  project = var.project_id
+  service = "cloudbilling.googleapis.com"
+}
+
+resource "google_project_service" "project-admin" {
+  project = var.project_id
+  service = "admin.googleapis.com"
+}
+
+resource "google_project_service" "project-ressourcemanager" {
+  project = var.project_id
+  service = "cloudresourcemanager.googleapis.com"
+}
+
 resource google_service_account replicator_service {
   account_id   = var.sa_name
   display_name = "meshcloud replicator service account"
